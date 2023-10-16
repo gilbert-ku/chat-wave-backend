@@ -13,19 +13,24 @@ with app.app_context():
     user1 = User(
         id = 1,
         username = "Okra",
-        email = "felicia@gmail.com"
+        email = "felicia@gmail.com",
+        password_hash = "passwordfor1"
     )
 
     user2 = User(
         id=2,
         username="SlimShady",
         email="realslim@gmail.com",
+        password_hash = "passwordfor2"
+
     )
 
     user3 = User(
         id=3,
         username="Kgogstile",
         email="earlsweatshirt@gmail.com",
+        password_hash = "mypassword"
+
     )
 
     db.session.add_all([user1, user2, user3])
