@@ -19,4 +19,5 @@ sqlalchemy==2.0.22
 typing-extensions==4.8.0
 werkzeug==3.0.0
 wsproto==1.2.0
-zipp==3.17.0
+zipp==3.17.
+flask_socketio
