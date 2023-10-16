@@ -11,7 +11,7 @@ from werkzeug.security import generate_password_hash,check_password_hash
 import uuid
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://kimaita:55D6TKYYy3O4rIHZEFMFS21CjkvfMWZ5@dpg-ckmicgou1l6c739316p0-a.oregon-postgres.render.com/chatwave_app'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.json.compact = False
 JWT_SECRET_KEY = 'secret'
