@@ -294,4 +294,4 @@ def handle_new_message(data):
         socketio.emit('new_message', {'message_content': data['message_content'], 'user': user.to_dict()})
 
 if __name__ == '__main__':                                       
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', debug=True)
