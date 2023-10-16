@@ -20,4 +20,4 @@ typing-extensions==4.8.0
 werkzeug==3.0.0
 wsproto==1.2.0
 zipp==3.17.
-flask_socketio
+flask-socketio==5.3.6
